@@ -48,7 +48,7 @@ chisq.test(x = sales_obs, p = sales_exp)
 # Alternative hypothesis: There is a significant difference in the goal preference of boys and girls
 
 # we'll be using chi-square test of independence
-ques_4 <- read_excel("A_2_4_data.xlsx")
+ques_4 <- read_excel("chi_sq.xlsx")
 ques_4_table <- table(ques_4$Gender, ques_4$Goals)
 
 #run the chi-square test letting R simulate proportions
